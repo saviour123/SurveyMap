@@ -1,0 +1,25 @@
+<!-- menu -->
+	<div class="ui inverted menu">
+  		<a class="active item">Home</a>
+  		<a class="item">Messages</a>
+  		<a class="item">Friends</a>
+	</div>
+<!-- Json object creation in Javascript -->
+	<!-- <h2>Json object creation </h2>
+	<p id="demo"></p> -->
+
+<!-- 	<script>
+		var text = '{"name":"saviour gidi", "street":"apple st", "phone":"0543486731"}';
+		var obj = JSON.parse(text);
+
+
+		document.getElementById("demo").innerHTML = 
+		obj.name + "<br>" + 
+		obj.street + "<br>" +
+		obj.phone;
+
+	</script>
+
+ -->
+
+<link rel="stylesheet" href="css/semantic.css">
