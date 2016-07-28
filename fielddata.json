@@ -1,4 +1,4 @@
-var fielddata = {
+{
 "type": "FeatureCollection",
                                                                                 
 "features": [
@@ -72,4 +72,4 @@ var fielddata = {
 { "type": "Feature", "properties": { "lat": "6.60548", "long": "0.47609", "alt": "159.68", "Five years malaria record": "Yes", "Education": "SSS\/O\/A\/Vocational Level", "Family Malaria Records": "Yes", "Pesonal Spending on Malaria": "Yes", "Sex": "Female", "Settlement Type": "Clustered", "ITN": "Yes", "Mos_Coil": "No", "Mos_Repellent": "No", "Mos_Sprays": "Yes", "Antimalarial": "No", "Precaution_Measures": "Yes", "Employment Status": "Yes", "Nearness to Phys": "Gutters", "Malaria Treatment": "Self Medication" }, "geometry": { "type": "Point", "coordinates": [ 0.47609, 6.60548 ] } },
 { "type": "Feature", "properties": { "lat": "6.6118", "long": "0.47179", "alt": "187", "Five years malaria record": "Yes", "Education": "Primary Education", "Family Malaria Records": "Yes", "Pesonal Spending on Malaria": "Yes", "Sex": "Female", "Settlement Type": "Semi", "ITN": "Yes", "Mos_Coil": "Yes", "Mos_Repellent": "No", "Mos_Sprays": "No", "Antimalarial": "No", "Precaution_Measures": "Yes", "Employment Status": "Yes", "Nearness to Phys": "Bush", "Malaria Treatment": "Hospital" }, "geometry": { "type": "Point", "coordinates": [ 0.47179, 6.6118 ] } }
 ]
-};
+}

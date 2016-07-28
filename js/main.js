@@ -12,10 +12,25 @@ L.tileLayer('http://{s}.tiles.mapbox.com/v3/ianmule.bg2v5cdi/{z}/{x}/{y}.png',{a
 
 //add some GeoJson
 
-function basementDwell(feature, layer){
-	layer.bindPopup("<h1>This is Infor</h1>")
+//create map icon
+var marker = new L.Icon({
+	iconUrl: 'img/marker.png',
+	iconSize: [38, 95],
+	iconAnchor: [22, 94],
+    popupAnchor: [-3, -76]
+});
+
+//the function that binds the icon to the layer
+function myIcon(feature, layer) {
+	layer.setIcon(marker);
+	/*layer.bindPopup("<h1>Hello saviou</h1>");*/
 };
 
-L.geoJson(respondents,{
-	onEachFeature: basementDwell
+L.geoJson(fielddata,{
+	onEachFeature: myIcon
 }).addTo(map);
+
+//
+
+
+
