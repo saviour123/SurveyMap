@@ -1,5 +1,5 @@
 //JS and Leaflet Stuff
-
+//creating the map with div
 var map = L.map('map', {
 	center: [5,28],
 	zoom: 3,
@@ -7,10 +7,9 @@ var map = L.map('map', {
 	maxZoom: 18
 });
 
-
+//add tiles
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/ianmule.bg2v5cdi/{z}/{x}/{y}.png',{attribution: "Mapbox"}).addTo(map);
 
-//add some GeoJson
 
 //create map icon
 var marker = new L.Icon({
@@ -23,14 +22,12 @@ var marker = new L.Icon({
 //the function that binds the icon to the layer
 function myIcon(feature, layer) {
 	layer.setIcon(marker);
-	/*layer.bindPopup("<h1>Hello saviou</h1>");*/
 };
 
 L.geoJson(fielddata,{
 	onEachFeature: myIcon
 }).addTo(map);
 
-//
 
 
 
