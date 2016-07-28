@@ -6,3 +6,5 @@ Geojson its a cool gis data format GIS officers can rely on. The Good News, you 
 *** pyhton -m SimpleHTTPServer
 
 Open Your Browser: 127.0.0.1:8000
+
+http://maptimeboston.github.io/leaflet-intro/  quick note
