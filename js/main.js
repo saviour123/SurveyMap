@@ -12,16 +12,12 @@ L.tileLayer('http://{s}.tiles.mapbox.com/v3/ianmule.bg2v5cdi/{z}/{x}/{y}.png',{a
 
 
 //create map icon
-var marker = new L.Icon({
-	iconUrl: 'img/marker.png',
-	iconSize: [38, 95],
-	iconAnchor: [22, 94],
-    popupAnchor: [-3, -76]
-});
+var blueIcon = new L.Icon({iconUrl: 'img/marker-icon.png'});
 
 //the function that binds the icon to the layer
 function myIcon(feature, layer) {
-	layer.setIcon(marker);
+	layer.bindPopup("<h1>Hi saviour</h1>");
+	layer.setIcon(blueIcon);
 };
 
 L.geoJson(fielddata,{

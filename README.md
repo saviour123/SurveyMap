@@ -1,2 +1,7 @@
 # malariaRes
-Geojson its a cool arcgis data format GIS officers can rely on. The Good News, you can use it with open street map
+Geojson its a cool gis data format GIS officers can rely on. The Good News, you can use it with open street map
+
+to run this
+
+cd into the folder that contain
+
