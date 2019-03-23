@@ -1,5 +1,5 @@
 # Malaria Survey Respondents Map(Project Work 2015 Data)
-Geojson its a cool gis data format GIS officers can rely on. The Good News, you can use it with open street map
+Geojson its a cool gis data format GIS officers can rely on. The Good News is, you can use it with open street map
 
 ## Instructions
 
